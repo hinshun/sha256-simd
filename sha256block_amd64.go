@@ -30,6 +30,7 @@ func blockAvxGo(dig *digest, p []byte) {
 }
 
 func blockAvx2Go(dig *digest, p []byte) {
+	panic("culprit")
 
 	h := []uint32{dig.h[0], dig.h[1], dig.h[2], dig.h[3], dig.h[4], dig.h[5], dig.h[6], dig.h[7]}
 
